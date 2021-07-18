@@ -1,0 +1,72 @@
+
+<view class="all">
+  <view class="pre">
+    <text >
+    这里有一些关于冥想的tips,帮助大家了解什么是冥想，如何开始冥想练习，冥想过程中遇到问题应该如何解决等。你可以通过点击不同的问题，获取进一步的了解。希望帮助你更好地练习冥想，提升幸福感。
+    </text>
+  </view>
+
+  <view class="title">认识冥想</view>
+  <view class="background"> 
+    <block wx:for="{{menuitems_1}}">
+        <navigator url="{{item.url}}" >
+          <view class="question">
+            <!-- <view class="listimg">
+              <image src="{{item.icon}}"></image>
+            </view> -->
+            <view class="listtext" style="margin-bottom: 10rpx">
+              {{item.text}}
+            </view>
+            <!-- <view class="arrows">
+              <image src="{{item.arrows}}"></image>
+            </view> -->
+          </view>
+        </navigator>
+        <!-- 分割线 --> 
+        <view class="divLine"></view>
+      </block>
+  </view>
+ 
+  <view class="title">初学者问答</view>
+<view class="background"> 
+    <block wx:for="{{menuitems_2}}" >
+        <navigator url="{{item.url}}" >
+          <view class="question">
+            <!-- <view class="listimg">
+              <image src="{{item.icon}}"></image>
+            </view> -->
+            <view class="listtext" style="margin-bottom: 10rpx">
+              {{item.text}}
+            </view>
+            <!-- <view class="arrows">
+              <image src="{{item.arrows}}"></image>
+            </view> -->
+          </view>
+        </navigator>
+        <!-- 分割线 --> 
+        <view class="divLine"></view>
+      </block>
+  </view>
+
+  <view class="title">小程序使用答疑</view>
+  <view class="background">
+    <block wx:for="{{menuitems_3}}" >
+        <navigator url="{{item.url}}" >
+          <view class="question">
+            <!-- <view class="listimg">
+              <image src="{{item.icon}}"></image>
+            </view> -->
+            <view class="listtext" style="margin-bottom: 10rpx">
+              {{item.text}}
+            </view>
+            <!-- <view class="arrows">
+              <image src="{{item.arrows}}"></image>
+            </view> -->
+          </view>
+        </navigator>
+        <!-- 分割线 --> 
+        <view class="divLine"></view>
+      </block>
+  </view>
+  
+</view>

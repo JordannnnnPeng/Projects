@@ -1,0 +1,39 @@
+<view class="v1">
+  <view class="container">
+    <view>
+      <view class="title">白噪声</view>
+      <scroll-view class="scroll" scroll-x="true">
+        <view class="whole_box" wx:for="{{musicData1}}">
+          <navigator class="box" open-type="navigate" url="/BJM_package/pages/moreSounds_play/moreSounds_play?id={{item.id}}&musicSrc={{item.music}}">
+            <image src="{{item.src}}" class="img1"></image>
+          </navigator>
+          <view class="name">{{item.name}}</view>
+        </view>
+      </scroll-view>
+
+      <view class="line"></view>
+
+      <view class="title">轻音乐</view>
+      <scroll-view class="scroll" scroll-x="true">
+        <view class="whole_box" wx:for="{{musicData2}}">
+          <navigator class="box" open-type="navigate" url="/BJM_package/pages/moreSounds_play/moreSounds_play?id={{item.id}}&musicSrc={{item.music}}">
+            <image src="{{item.src}}" class="img1"></image>
+          </navigator>
+          <view class="name">{{item.name}}</view>
+        </view>
+      </scroll-view>
+
+      <view class="line"></view>
+
+      <view class="title">Lofi hiphop</view>
+      <scroll-view class="scroll" scroll-x="true">
+        <view class="whole_box" wx:for="{{musicData3}}">
+          <navigator class="box" open-type="navigate" url="/BJM_package/pages/moreSounds_play/moreSounds_play?id={{item.id}}&musicSrc={{item.music}}">
+            <image src="{{item.src}}" class="img1"></image>
+          </navigator>
+          <view class="name">{{item.name}}</view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</view>

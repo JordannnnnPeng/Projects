@@ -1,0 +1,74 @@
+<!--SJY_package/pages/article_night1/article_night1.wxml-->
+<view class="all">  
+  <view class="title">为什么我们需要「睡眠冥想」</view>
+  <image src="../../images/sleepa.jpeg" class="img" mode="widthFix"></image>
+  <text class="body">
+    睡眠冥想是一种特殊的引导性体验，可以独自提供自然的睡眠帮助，使我们能够放手一整天-发生的一切和所说的一切-这样我们就可以在放松身心的同时放松身心。
+
+    用科学的术语来说，冥想可以帮助 降低心率 通过点燃 副交感神经系统 和 鼓励呼吸慢，从而增加了优质睡眠的可能性。通过基于睡眠的工作 引导冥想，您可能会发现新的工具和技术来帮助放松身心，全天放松身心，放松身心。
+
+
+  </text>
+  <view class="title">是什么让人们在晚上起床？</view>
+  <image src="../../images/sleepcasts_social.png" class="img" mode="widthFix"></image>
+  <text class="body">
+    我们几乎一半是 睡眠剥夺 -但不是因为我们 不想睡觉。有时候我们根本做不到入睡或睡着 由于一系列生物力和 生活方式的选择。您知道它的运行方式：将头放在枕头上，似乎好像大脑突然进入了超速行驶状态。当然，这种想法一直存在。只是没有任何干扰，您就可以意识到它们。
+
+    技术还加剧了睡眠问题： 90％的美国人在睡觉前一个小时内使用技术（包括看电视，使用手机，玩视频游戏，使用计算机等等）。我们中的许多人甚至在手机躺在枕头下或在振铃器旁边的脸旁睡觉。不幸的是，盲目的屏幕和技术的使用与稳定的睡眠负相关：一项研究表明，更多设备一个人在给定的一天使用时，入睡和入睡的困难就越大。这些影响主要发生在整天高度使用其设备的人中，而在那些在打开电话铃声（甚至用作闹钟）或附近其他干扰性设备的情况下入睡的人更是如此。
+
+
+  </text>
+
+  <view class="title">引导睡眠冥想</view>
+  <image src="../../images/HeadspaceLeadpic.jpeg" class="img" mode="widthFix"></image>
+  <view class="box1">
+    <view class="content">
+      <text class="body">
+        1. 呼吸练习
+      </text>
+      <text class="descr">
+        这涉及到调节您的呼吸（例如数呼吸）并最终使您的呼吸稍慢一些，这向身体发出了该睡觉的信号了。
+      </text>
+    </view>
+  </view>
+  <view class="box1">
+    <view class="content">
+      <text class="body">
+        2. 身体扫描
+      </text>
+      <text class="descr">
+        当您躺在床上时，可能会要求您注意呼吸和身体触摸床的位置。然后，从脚趾开始，您可以考虑“关闭”身体各个部位的任何工作，并逐步进行。
+      </text>
+    </view>
+  </view>
+  <view class="box2">
+    <view class="content">
+      <text class="body">
+        3. 可视化
+      </text>
+      <text class="descr">
+        可视化要求您想象图像或场景，然后将您带入类似于催眠的精神状态。感恩：一些专注于睡眠的冥想计划专注于欣赏冥想和爱心冥想，这要求您专注于感恩。
+      </text>
+    </view>
+  </view>
+  <view class="box2">
+    <view class="content">
+      <text class="body">
+        4. 数数
+      </text>
+      <text class="descr">
+        为了减慢思维速度并使您从周期性的思维模式中解脱出来，您可能会被邀请缓慢地数数：从10（甚至1,000）开始倒数，再倒数为1，然后再从10开始数。
+      </text>
+    </view>
+  </view>
+  <view class="box3">
+    <view class="content">
+      <text class="body">
+        5. 回顾你的一天
+      </text>
+      <text class="descr">
+        逐个动作详细地回顾您的一天，可能是分散您的注意力以使自己渐行渐远的好方法。从早上起床，洗澡和吃早餐开始，每天花20到25秒，而不管他们多少。这是在呼吸或可视化冥想之前开始断电的好方法。
+      </text>
+    </view>
+  </view>
+</view> 

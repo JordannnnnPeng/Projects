@@ -1,0 +1,48 @@
+<!--miniprogram/pages/delete/delete.wxml-->
+<view class="all">
+<view class="top_bar">
+  <!-- <view class="back" bindtap="navigate_to_today">
+    <image src="../../images/small_icons/back.png"></image>
+  </view> -->
+  <view class="top_text"> 
+    <text>调整活动</text>
+  </view>
+  
+</view>
+<view class="midian_bar"></view>
+<view class="item" wx:for="{{acts}}">
+    
+<!-- 右边的框框 -->
+    <view class="item_info_all">
+      <!-- zuo边框框里面放图片的地方 -->
+      
+<view class="left_what">
+    <image src="../../images/small_icons/IMG_1539.png" class="starfall" bindtap="delete" id="{{index}}" ></image>
+    </view>
+
+<!-- 右边框框里面首先放文字的地方 -->
+      <view class="item_info_text">
+        <!-- 第一个是名字 -->
+        <view class="item_name">{{item[2]}}</view>
+        <!-- 第二个是类型 有一个icon 有一个名字 -->
+        <view class="item_type">
+          <!-- <image class="item_type_icon" src="../../images/small_icons/play-circle.png">
+
+          </image> -->
+          <view class="item_type_name"> {{item[0]}}</view>
+        </view>
+        <!-- 第三个是时间 有一个icon 有一个text -->
+        <view class="item_time">
+            <!-- <image src="../../images/small_icons/reloadtime.png" class="item_time_icon"></image> -->
+          
+          <view class="item_time_text">{{item[1]}}</view>
+        </view>
+      </view>
+      
+      <image src="../../images/small_icons/menu.png" class="rightpic"></image>
+      
+    </view>
+
+  </view>
+  <view class="notes">- 点击红色按钮以删除已有的活动 -</view>
+</view>

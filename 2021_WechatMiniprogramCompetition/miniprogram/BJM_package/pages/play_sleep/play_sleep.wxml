@@ -1,0 +1,36 @@
+<!--pages/shake/shake.wxml-->
+<view class="stars">
+  <view class="star "></view>
+  <view class="star pink "></view>
+  <view class="star blue "></view>
+  <view class="star yellow "></view>
+</view>
+
+<view class="v1">
+  <view class="planet">
+      <image src='{{images.earthSrc}}' class="img" mode="aspectFit"></image>
+  </view>
+  <view class="icon_playMusic">
+    <image wx:if="{{!play}}" src='{{images.play}}' class="play_icon" catchtap="musicPlay" mode="widthFix"></image>
+    <image wx:if="{{play}}" class="play_icon2" src='{{images.pause}}' catchtap="musicPause" mode="widthFix"></image>
+  </view>
+</view>
+
+<view class="time">
+  <view class="icon">
+    <image wx:if="{{!isCollected}}" class="like" src="{{images.isCollected}}" catchtap="handleCollection"></image>
+    <image wx:if="{{isCollected}}" class="like" src="{{images.isNotCollected}}" catchtap="handleCollection"></image>
+
+    <view class="space"></view>
+    <picker range="{{timeArray}}" value="{{timeIndex}}">
+      <image src="{{images.clockButton}}" class="timing"></image>  
+    </picker>
+  </view>
+  <view class="progress">
+    <slider selected-color="white" color="white" block-size="12" bindchange="changed1" min="0" max="{{max}}" value="{{value}}" bindchanging="changing"></slider>
+    <view class="time_detail">
+      <view class="current">{{currentTime}}</view>
+      <view class="total">{{audioDuration}}</view>
+    </view>
+  </view>
+</view>

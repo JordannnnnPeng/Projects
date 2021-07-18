@@ -1,0 +1,144 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "more_sounds",
+          "pathName": "SJY_package/pages/more_sounds/more_sounds",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "SJY_package/pages/article_medi2/article_medi2",
+          "pathName": "SJY_package/pages/article_medi2/article_medi2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "play_meditate",
+          "pathName": "BJM_package/pages/play_meditate/play_meditate",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "moreSounds_play",
+          "pathName": "BJM_package/pages/moreSounds_play/moreSounds_play",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "meditate",
+          "pathName": "pages/meditate/meditate",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "night",
+          "pathName": "pages/night/night",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "play_sleep",
+          "pathName": "BJM_package/pages/play_sleep/play_sleep",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "my",
+          "pathName": "XY_package/pages/my/my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "collect",
+          "pathName": "XY_package/pages/collect/collect",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "article_medi1",
+          "pathName": "SJY_package/pages/article_medi1/article_medi1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "article_medi2",
+          "pathName": "SJY_package/pages/article_medi2/article_medi2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "shake",
+          "pathName": "BJM_package/pages/shake/shake",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "article_night1",
+          "pathName": "SJY_package/pages/article_night1/article_night1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "article_night2",
+          "pathName": "SJY_package/pages/article_night2/article_night2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "handbook",
+          "pathName": "XY_package/pages/handbook/handbook",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "signv2",
+          "pathName": "XY_package/pages/signv2/signv2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "article0",
+          "pathName": "PC_package/pages/article0/article0",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "add_act",
+          "pathName": "PC_package/pages/add_act/add_act",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "more_soundsNight",
+          "pathName": "SJY_package/pages/more_soundsNight/more_soundsNight",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "article1",
+          "pathName": "PC_package/pages/article1/article1",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

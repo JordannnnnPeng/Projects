@@ -1,0 +1,51 @@
+<!--miniprogram/pages/article0/article0.wxml-->
+<view class="all">
+  <!-- <view class="top_bar">
+    <view class="back" bindtap="navigate_to_today">
+      <image src="../../images/small_icons/back.png"></image>
+    </view>
+    <view class="top_text"> 
+      <text></text>
+    </view>
+  </view> -->
+
+<view class="title">七招教你减压更降压</view>
+<image src="../../images/articleauthor.jpeg" class="articleauthor"></image>
+<image src="../../images/1.jpeg" class="picture_article"></image>
+
+<text class="body">
+  如果你常感到焦虑不堪，好像下一秒就要崩溃，不妨试试下面七招帮你减压吧。在高血压的防治中，调节心理压力不失为一种方法，却往往容易被忽略。
+
+</text>
+<text class="headings" >1. 保证充足的睡眠</text>
+<text class="body">睡眠不足或低质量的睡眠对你的心情、反应、活跃程度和身体健康都会造成负面影响。
+
+</text>
+<text class="headings" >2. 学习一些放松方式</text>
+<text class="body">冥想、渐进式肌肉放松法、引导想象、深呼吸练习和瑜伽都是对抗压力的好方法。
+
+</text>
+<text class="headings" >3. 加强社交</text>
+<text class="body">可通过参加兴趣班、加入某个社团或互助小组的方式，认识新朋友，丰富自己的日常生活。
+
+</text>
+<text class="headings" >4. 提高时间管理能力</text>
+<text class="body">越是能高效地处理工作及家庭事物，压力程度就越是低。
+
+</text>
+<text class="headings" >5. 尽力化解高压情况</text>
+<text class="body">不要让已有的压力进一步加重。家庭中的问题尽量同其他家庭成员一起解决。工作中不要过分争强好胜，学会拒绝给自己带来过大压力的任务。
+
+</text>
+<text class="headings" >6. 陶冶自我</text>
+<text class="body">可奖励自己做次按摩。
+  全身心地去享受生活细节：
+  吃饭时细嚼慢咽，享受每一口食物的味道和口感，让味蕾去分辨每一种味道之间细微的差异；可找个公园散散步、遛遛狗、看看夕阳；听一听喜欢的音乐、找个安静的角落看看书。
+
+</text>
+<text class="headings" >7. 寻求别人的帮助</text>
+<text class="body">健康的心理再加上健康的体重，戒烟，规律锻炼，含水果、蔬菜、全谷类、瘦肉蛋白和健康脂肪的饮食，不但有益身心健康，还能有效控制血压。
+
+</text>
+<text class="reprint">本文首发于丁香医生 App，二次转载或合作请联系gaoruiqiu@dxy.cn 丁香医生 App，专业可信赖的医疗健康服务平台。提供专业安全的科普内容、在线一对一医生问答、处方建议等服务。</text>
+</view>

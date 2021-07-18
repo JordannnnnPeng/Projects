@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "calendar": "plugin://calendar/calendar"
+  },
+  "navigationBarTitleText": "签到",
+  "navigationBarBackgroundColor": "#f7f1e2",
+  "backgroundColor": "#f7f1e2",
+  "disableScroll": true
+}

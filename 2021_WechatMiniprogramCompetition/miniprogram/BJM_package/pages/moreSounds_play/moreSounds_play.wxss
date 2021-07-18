@@ -1,0 +1,129 @@
+page {
+  background: linear-gradient(to bottom, #ff6f3c, #ff9a3c, #ffc93c);
+}
+.v1 {
+	position: relative;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+	margin-top: 200rpx;
+}
+
+.time {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 400rpx;
+  height: 100rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  justify-content: flex-end;
+}
+.time .icon {
+  /* border: solid 1rpx grey; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.time .timing {
+  height: 55rpx;
+  width: 55rpx;
+  margin-bottom: 0rpx;
+}
+.time .like {
+  height: 47rpx;
+  width: 47rpx;
+  margin-bottom: 3rpx;
+  /* margin-right: 500rpx; */
+}
+.time .space {
+  width: 17em;
+}
+
+ .progress {
+  /* border: solid 1rpx grey; */
+  height: 100rpx;
+  width: 100%;
+} 
+.progress .time_detail {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  background-color: #7591AD;
+  border: 10px solid #2c3e50;
+  box-shadow: 0 0 0 5px #F97F51;
+  border-radius: 50%;
+}
+
+.wave {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #F97F51;
+  border-radius: 50%;
+  box-shadow: inset 0 0 50px #EC3E27;
+  overflow: hidden;
+  z-index: 0;
+}
+.v1 .icon_playMusic {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 220rpx;
+  left: 10rpx;
+}
+
+.play_icon {
+  size: 85%;
+  height: 110rpx;
+  width: 110rpx;
+}
+
+.play_icon2 {
+  size: 85%;
+  height: 110rpx;
+  width: 110rpx;
+  margin-right: 17rpx;
+}
+
+.wave::before,
+.wave::after {
+  position: absolute;
+  content: "";
+  width: 200%;
+  height: 200%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wave::before {
+  border-radius: 30%;
+  background-color: #f0932b;
+  animation: animate 20s linear infinite;
+}
+
+.wave::after {
+  border-radius: 40%;
+  background-color: #ffbe76;
+  animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    top: 0;
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  100% {
+    top: -150px;
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

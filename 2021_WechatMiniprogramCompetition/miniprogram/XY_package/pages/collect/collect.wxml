@@ -1,0 +1,12 @@
+<!--XY_package/pages/collect/collect.wxml-->
+
+<view class="container">
+  <navigator class="box1" url="/BJM_package/pages/moreSounds_play/moreSounds_play?id={{item.id}}&musicSrc={{item.music}}" wx:for="{{collectMusic}}">
+    <view class="words">
+      <view class="words_up">{{item.name}}</view>
+      <view class="space"></view>
+      <view class="words_down">音乐</view>
+    </view>
+    <image src="{{item.src}}" class="pic"></image>
+  </navigator>
+</view>

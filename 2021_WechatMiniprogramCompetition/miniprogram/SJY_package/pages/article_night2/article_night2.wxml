@@ -1,0 +1,60 @@
+<!--SJY_package/pages/article_night1/article_night1.wxml-->
+<view class="all">  
+  <view class="title">其他改善睡眠的方法</view>
+  <image src="../../images/sleep_sounds_header_1100.png" class="img" mode="widthFix"></image>
+  <text class="body">
+    没有一次性的解决方案可以保证良好的睡眠。冥想是一个奇妙的开始，但睡眠卫生或养成有利于定期良好睡眠的习惯和做法也很重要。
+
+  </text>
+
+  <view class="box4">
+    <view class="content">
+      <text class="body">
+        1. 规律作息
+      </text>
+      <text class="descr">
+        尝试每天大约在同一时间上床睡觉和醒来。这可以帮助发展和支持强烈的昼夜节律；一致性告诉身体何时保持清醒和何时昏昏欲睡。对于执行轮班工作或经常经历时差的人而言，一致的例行程序可能会很困难，但研究 表明光提示可能有助于缓解睡眠-觉醒周期。
+      </text>
+    </view>
+  </view>
+  <view class="box2">
+    <view class="content">
+      <text class="body">
+        2. 睡眠环境
+      </text>
+      <text class="descr">
+        舒适的卧室设置是保证睡眠卫生的必要条件。研究表明黑暗很重要 用于褪黑激素释放和 温度较低 支持更好的睡眠； 最小化声音干扰 在家中和室外也都有助于最大程度地提高睡眠质量。
+      </text>
+    </view>
+  </view>
+  <view class="box5">
+    <view class="content">
+      <text class="body">
+        3. 饮食
+      </text>
+      <text class="descr">
+        某些食物可能是“睡眠偷窃者”。均衡饮食和适当补水已被证明可以改善睡眠习惯。
+      </text>
+    </view>
+  </view>
+  <view class="box1">
+    <view class="content">
+      <text class="body">
+        4. 体力活动
+      </text>
+      <text class="descr">
+        定期参加 在体育锻炼中，包括长途散步，重量训练，瑜伽，跑步或小组健身课程等，可能会对您的睡眠质量产生持久影响
+      </text>
+    </view>
+  </view>
+  <view class="box6">
+    <view class="content">
+      <text class="body">
+        5. 睡前准备
+      </text>
+      <text class="descr">
+        在就寝前的几个小时内为成功做好准备。在计划入睡之前，请尝试将技术至少撤消一个小时。当您上床睡觉时，引导自己完成通过睡眠冥想练习所学到的练习（或者，如果需要指导，请至少将手机或设备正面朝下隐藏起来以隐藏明亮的屏幕），选择可以帮助调节体温同时保持舒适的睡衣。让自己放松一下，找个安静的地方，度过美好的一天。对于某些人来说，睡前记日记可以是一种使思想回到现在的有效方式。
+      </text>
+    </view>
+  </view>
+</view> 

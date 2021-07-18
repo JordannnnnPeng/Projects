@@ -1,0 +1,50 @@
+
+
+<view  wx:if="{{isnolog}}" class="avatar-wrapper">
+  <block>
+      <view class="avatar">
+        <image bindtap="bindViewTap" class="image_radius " src="{{userInfo.avatarUrl}}">
+        </image>
+        <view>
+          <text class="log">
+            {{userInfo.nickName}}
+          </text>
+        </view>
+      </view>
+  </block>
+  <view class="container">
+    <view>
+      <block wx:for="{{menuitems}}" wx:key="menu_for">
+        <navigator url="{{item.url}}" class="box">
+          <view class="content">
+            <image src="{{item.icon}}" class="image">
+            </image>
+            <view class="text">
+              {{item.text}}
+            </view>
+            <view class="arrow_img">
+              <image src="{{item.arrows}}"></image>
+            </view>
+          </view>
+          <view class="tips">{{item.tips}}</view>
+        </navigator>
+      </block>
+    </view>
+  </view>
+  <bottom></bottom>
+</view>
+
+<view wx:else class="log">
+    <view class='header'>
+        <image src='/XY_package/images/logo.png'></image>
+    </view>
+
+    <view class='field'>
+        <view>申请获取以下权限</view>
+        <text>获得你的公开信息(昵称，头像等)</text>
+    </view>
+
+    <button class='bottom' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="getUserInfo">
+        授权登录
+    </button>
+</view>

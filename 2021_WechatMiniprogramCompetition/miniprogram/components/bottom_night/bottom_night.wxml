@@ -1,0 +1,4 @@
+<view class="logo">
+  <image src="../../images/WechatIMG557.jpeg" class="img" mode="widthFix"></image>
+  <view class="txt">- 冥想空间 -</view>
+</view>

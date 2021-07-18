@@ -1,0 +1,140 @@
+/* miniprogram/pages/my/my.wxss */
+page{
+   background-color: white;
+}
+.avatar-wrapper {
+  background:white;
+  padding: 25px 0;
+}
+ 
+.avatar-wrapper .avatar {
+  display: flex;
+  flex-direction: column;
+  /* margin: 0 auto; */
+  text-align: center;
+  align-items: center;
+  
+}
+
+.avatar-wrapper .image_radius {
+  overflow:hidden;  
+  display: block;  
+  width: 160rpx;  
+  height: 160rpx;  
+  /* margin: 20rpx;   */
+  /* margin-top: 110rpx;   */
+  border-radius: 1em;  
+  border: 2px solid #ffff;  
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: center;
+}
+
+ 
+.avatar-wrapper .log {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+}
+ /* ========================== */
+.container .box{
+  /* display: flex; */
+  height: 165rpx;
+  background-color: #f7f3e9;
+  margin-top: 40rpx;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  /* margin-bottom: 40rpx; */
+  align-items: center;
+  border-radius: 1em;
+}
+.line {
+  display: block;
+  height: 5rpx;
+  width: 700rpx;
+  margin-top: 30rpx;
+  margin-left: 25rpx;
+  margin-right: 20rpx;
+  font-style: bold;
+  /* margin-left: 199rpx; */
+  background-color: grey;
+}
+.container .content{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+  padding-top: 20rpx;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: space-between;
+}
+
+.container image {
+  /* margin-right: 5px;
+  margin-top: 20px; */
+  /* align-items: center; */
+  width: 20px;
+  height: 20px;
+}
+
+.container text{
+  vertical-align:text-bottom;
+  margin-top: 20px;
+  width: 100px;
+  height: 20px;
+}
+
+.container .arrow_img {
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  margin-left: 450rpx;
+}
+
+.container .tips{
+  display: flex;
+  margin-left: 30px;
+  margin-top: 1.8em;
+  font-size: small;
+  color: black;
+}
+ 
+
+
+/* XY_package/pages/authorize/authorize.wxss */
+.header {
+  margin: 90rpx 0 90rpx 50rpx;
+  text-align: center;
+  width: 650rpx;
+  height: 300rpx;
+  line-height: 450rpx;
+}
+
+.header image {
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.field {
+  margin-left: 50rpx;
+  margin-bottom: 90rpx;
+}
+
+.field text {
+  display: block;
+  color: #9d9d9d;
+  margin-top: 40rpx;
+}
+
+.bottom {
+  border-radius: 80rpx;
+  margin: 70rpx 50rpx;
+  font-size: 35rpx;
+}
+
+.log{
+  background-color: white;
+}

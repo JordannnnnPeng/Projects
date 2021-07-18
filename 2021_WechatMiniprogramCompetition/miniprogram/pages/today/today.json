@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "bottom":"/components/bottom/bottom"
+  },
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "今日",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "backgroundColor": "#ffffff"
+}

@@ -1,0 +1,5 @@
+<!--miniprogram/components/bottom/bottom.wxml-->
+<view class="logo">
+  <image src="../../images/WechatIMG163.jpeg" class="img" mode="widthFix"></image>
+  <view class="txt">- 冥想空间 -</view>
+</view>

@@ -1,0 +1,150 @@
+<!--miniprogram/pages/today/today.wxml-->
+<!-- 【本文首发于丁香医生 App，二次转载或合作请联系gaoruiqiu@dxy.cn 丁香医生 App，专业可信赖的医疗健康服务平台。提供专业安全的科普内容、在线一对一医生问答、处方建议等服务。】 -->
+<view class="all">
+  <view class="top_section">
+    <image class="icon_user" bindtap="navigate_to_my" src="../../images/small_icons/user.png"></image>
+    <view class="greeting"><text>{{greetings}}</text>
+    </view>
+
+  </view>
+
+  <view class="date">
+    <view class="datee">
+      今日活动
+    </view>
+    <image src="../../images/small_icons/list.png" class="list" bindtap="navigate_to_delete"></image>
+  </view>
+
+  <view class="time_section">清晨</view>
+  <view class="item" wx:for="{{acts}}" wx:if="{{item[1]=='早晨'}}">
+    <navigator open-type="navigate" url="/BJM_package/pages/moreSounds_play/moreSounds_play?id={{item[5]}}&musicSrc={{item[6]}}">
+    <view class="item_info_all">
+      <!-- zuo边框框里面放图片的地方 -->
+      <image class="item_picture" src="{{item[3]}}" mode="widthFix">
+
+      </image>
+      <!-- 右边框框里面首先放文字的地方 -->
+      <view class="item_info_text">
+        <!-- 第一个是名字 -->
+        <view class="item_name">{{item[2]}}</view>
+        <!-- 第二个是类型 有一个icon 有一个名字 -->
+        <view class="item_type">
+          <!-- <image class="item_type_icon" src="../../images/small_icons/play-circle.png">
+
+          </image> -->
+          <view class="item_type_name"> {{item[0]}}</view>
+        </view>
+        <!-- 第三个是时间 有一个icon 有一个text -->
+        <view class="item_time">
+
+
+          <view class="item_time_text">{{item[1]}}</view>
+        </view>
+      </view>
+    </view>
+  </navigator>
+  </view>
+  <view class="time_section">下午</view>
+  <view class="item" wx:for="{{acts}}" wx:if="{{item[1]=='下午'}}">
+    <navigator open-type="navigate" url="/BJM_package/pages/moreSounds_play/moreSounds_play?id={{item[5]}}&musicSrc={{item[6]}}">
+    <view class="item_info_all">
+      <!-- zuo边框框里面放图片的地方 -->
+      <image class="item_picture" src="{{item[3]}}" mode="widthFix">
+
+      </image>
+      <!-- 右边框框里面首先放文字的地方 -->
+      <view class="item_info_text">
+        <!-- 第一个是名字 -->
+        <view class="item_name">{{item[2]}}</view>
+        <!-- 第二个是类型 有一个icon 有一个名字 -->
+        <view class="item_type">
+          <!-- <image class="item_type_icon" src="../../images/small_icons/play-circle.png">
+
+          </image> -->
+          <view class="item_type_name"> {{item[0]}}</view>
+        </view>
+        <!-- 第三个是时间 有一个icon 有一个text -->
+        <view class="item_time">
+
+
+          <view class="item_time_text">{{item[1]}}</view>
+        </view>
+      </view>
+    </view>
+  </navigator>
+  </view>
+  <view class="time_section">夜晚</view>
+  <view class="item" wx:for="{{acts}}" wx:if="{{item[1]=='夜晚'}}">
+    <navigator open-type="navigate" url="/BJM_package/pages/moreSounds_play/moreSounds_play?id={{item[5]}}&musicSrc={{item[6]}}">
+    <view class="item_info_all">
+      <!-- zuo边框框里面放图片的地方 -->
+      <image class="item_picture" src="{{item[3]}}" mode="widthFix">
+
+      </image>
+      <!-- 右边框框里面首先放文字的地方 -->
+      <view class="item_info_text">
+        <!-- 第一个是名字 -->
+        <view class="item_name">{{item[2]}}</view>
+        <!-- 第二个是类型 有一个icon 有一个名字 -->
+        <view class="item_type">
+          <!-- <image class="item_type_icon" src="../../images/small_icons/play-circle.png">
+
+          </image> -->
+          <view class="item_type_name"> {{item[0]}}</view>
+        </view>
+        <!-- 第三个是时间 有一个icon 有一个text -->
+        <view class="item_time">
+
+
+          <view class="item_time_text">{{item[1]}}</view>
+        </view>
+      </view>
+    </view>
+  </navigator>
+  </view>
+  <!-- 最下面有一个添加的框框，点了进入添加的界面 -->
+  <view class="item">
+    <!-- 右边的框框 -->
+    <view class="plus_image" bindtap="navigate_to_add">
+      添加更多...
+    </view>
+  </view>
+
+  <view class="blank">
+    <image src="../../images/todaygif.gif" class="gif" mode="widthFix"></image>
+  </view>
+
+  <view class="explore">
+    <view class="exploretext">相关文章</view>
+    <!-- <image src="../../images/purpleright.png" class="explorepic"></image> -->
+  </view>
+  <!-- /* //////////////////////////////////////// */ -->
+  <view class="article" wx:for="{{articles}}">
+    <!-- 左边一个什么东西 -->
+    <!-- <view class="left_what">
+    <image src="../../images/small_icons/yuan.png" class="starfall" bindtap="delete" id="{{index}}" ></image>
+    </view> -->
+    <!-- 右边的框框 -->
+    <view class="item_info_all" bindtap="{{item[4]}}">
+
+      <!-- 左边框框里面首先放文字的地方 -->
+      <view class="item_info_text">
+        <!-- 第一个是名字 -->
+        <view class="item_name">{{item[0]}}</view>
+        <!-- 第二个是类型 有一个icon 有一个名字 -->
+        <view class="item_type">
+          <image class="item_type_icon" src="{{item[3]}}">
+          </image>
+          <view class="item_type_name"> {{item[2]}}</view>
+        </view>
+      </view>
+      <!-- 右边框框里面放图片的地方 -->
+      <image class="item_picture" src="{{item[1]}}" mode="widthFix">
+      <!-- <image src="../../PC_package/images/H2.jpeg"></image> -->
+      </image>
+    </view>
+  </view>
+
+
+  <bottom></bottom>
+</view>

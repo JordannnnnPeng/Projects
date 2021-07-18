@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "bottom":"/components/bottom/bottom"
+  },
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "backgroundColor": "#ffffff",
+  "navigationBarTitleText": "冥想"
+  
+}

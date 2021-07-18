@@ -1,0 +1,29 @@
+<view class="v1">
+  <view class="circle">
+    <view class="wave"></view>
+  </view>
+  <view class="icon_playMusic">
+    <image wx:if="{{!play}}" src='{{image.play}}' class="play_icon" catchtap="musicPlay" ></image>
+    <image wx:if="{{play}}" class="play_icon2" src='{{image.pause}}' catchtap="musicPause"></image>
+  </view>
+</view>
+
+<view class="time">
+  <view class="icon">
+    <image wx:if="{{!isCollected}}" class="like" src="../../images/收 藏-产品详情.png" catchtap="handleCollection"></image>
+    <image wx:if="{{isCollected}}" class="like" src="../../images/收 藏 (1).png" catchtap="handleCollection"></image>
+
+    <view class="space"></view>
+    <picker range="{{timeArray}}" value="{{timeIndex}}">
+      <image src="{{image.clock}}" class="timing"></image>  
+    </picker>
+  </view>
+  <view class="progress">
+    <!-- <progress activeColor="#2d4059" backgroundColor="#ffffff" border-radius="5" percent="70" stroke-width="6" active></progress> -->
+    <slider selected-color="white" color="white" block-size="12" bindchange="changed" min="0" max="{{max}}" value="{{value}}" bindchanging="changing"></slider>
+    <view class="time_detail">
+      <view class="current">{{currentTime}}</view>
+      <view class="total">{{audioDuration}}</view>
+    </view>
+  </view>
+</view>

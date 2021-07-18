@@ -1,0 +1,187 @@
+/* pages/shake/shake.wxss */
+page {
+  background: linear-gradient(to bottom, #070324,#0a043c, #202060);
+}
+
+.star {
+    display: block;
+    width: 5rpx;
+    height: 5rpx;
+    border-radius: 70%;
+    background: #FFF;
+    top: 150rpx;
+    left: 700rpx;
+    position: absolute;
+    transform-origin: 100% 0;
+    animation: star-ani 6s infinite ease-out;
+    box-shadow: 0 0 4rpx 4rpx rgba(255, 255, 255, .3);
+    opacity: 0;
+    z-index: 2;
+}
+.star:after {
+    content: '';
+    display: block;
+    top: 0rpx;
+    left: 4rpx;
+    border: 0rpx solid #fff;
+    border-width: 0rpx 90rpx 5rpx 90rpx;
+    border-color: transparent transparent transparent rgba(255, 255, 255, .3);
+    transform: rotate(-45deg) translate3d(1rpx, 3rpx, 0);
+    box-shadow: 0 0 1rpx 0 rgba(255, 255, 255, .1);
+    transform-origin: 0% 100%;
+    animation: shooting-ani 3s infinite ease-out;
+}
+.pink {
+    top: 30rpx;
+    left: 395rpx;
+    background: #fff;
+    animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+    -moz-animation-delay: 5s;
+}
+.pink:after {
+    border-color: transparent transparent transparent #fff;
+    animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+    -moz-animation-delay: 5s;
+}
+.blue {
+    top: 35rpx;
+    left: 432rpx;
+    background: #ffcd5c;
+    animation-delay: 7s;
+    -webkit-animation-delay: 7s;
+    -moz-animation-delay: 7s;
+}
+.blue:after {
+    -webkit-animation-delay: 7s;
+    -moz-animation-delay: 7s;
+    animation-delay: 7s;
+}
+.yellow {
+    top: 50rpx;
+    left: 600rpx;
+    background: #ffcd5c;
+    animation-delay: 5.8s;
+}
+.yellow:after {
+    border-color: transparent transparent transparent #ffcd5c;
+    animation-delay: 5.8s;
+}
+
+@keyframes star-ani {
+    0% {
+        opacity: 0;
+        transform: scale(0) rotate(0) translate3d(0, 0, 0);
+        -webkit-transform: scale(0) rotate(0) translate3d(0, 0, 0);
+        -moz-transform: scale(0) rotate(0) translate3d(0, 0, 0);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1) rotate(0) translate3d(-200rpx, 200rpx, 0);
+        -webkit-transform: scale(1) rotate(0) translate3d(-200rpx, 200rpx, 0);
+        -moz-transform: scale(1) rotate(0) translate3d(-200rpx, 200rpx, 0);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1) rotate(0) translate3d(-300rpx, 300rpx, 0);
+        -webkit-transform: scale(1) rotate(0) translate3d(-300rpx, 300rpx, 0);
+        -moz-transform: scale(1) rotate(0) translate3d(-300rpx, 300rpx, 0);
+    }
+}
+/* ============================ */
+
+.v1 {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    position: relative;
+    /* padding-top: 30%; */
+    margin-top: 350rpx;
+}
+.planet {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 4%; */
+}
+.planet .img {
+    width: 420rpx;
+}
+.v1 .icon_playMusic {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* bottom: 220rpx;
+    left: 10rpx; */
+    z-index: 0;
+    left: 8rpx;
+  }
+.play_icon {
+    /* size: 85%; */
+    /* height: 110rpx;
+    width: 110rpx; */
+    width: 100rpx;
+}
+
+.play_icon2 {
+    /* size: 85%;
+    height: 110rpx;
+    width: 110rpx; */
+    margin-right: 20rpx;
+    width: 100rpx;
+}
+.time {
+    /* border: solid 5rpx grey; */
+    position: relative;
+    top: 500rpx;
+    margin-top: 100rpx;
+    /* margin-bottom: 40%; */
+    height: 100rpx;
+    margin-left: 50rpx;
+    margin-right: 50rpx;
+    justify-content: flex-end;
+  }
+.time .icon {
+/* border: solid 1rpx grey; */
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.time .timing {
+    height: 55rpx;
+    width: 55rpx;
+    margin-bottom: 0rpx;
+}
+
+.time .like {
+    height: 47rpx;
+    width: 47rpx;
+    margin-bottom: 3rpx;
+
+}
+
+.time .space {
+    width: 17em;
+}   
+
+.progress {
+    /* margin-top: 100rpx; */
+    height: 100rpx;
+    width: 100%;
+} 
+.progress .time_detail {
+    display: flex;
+    justify-content: space-between;
+}
+.progress .current {
+    color: white;
+}
+.progress .total {
+    color: white;
+}
+

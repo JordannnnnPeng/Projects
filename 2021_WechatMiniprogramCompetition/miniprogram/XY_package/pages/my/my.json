@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "bottom":"/components/bottom/bottom"
+  },
+  "navigationBarTitleText":"个人中心",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "backgroundColor": "#ffffff"
+}

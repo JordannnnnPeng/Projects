@@ -1,0 +1,105 @@
+{
+  "pages": [
+    "pages/today/today",
+    "pages/meditate/meditate",
+    "pages/night/night",
+    "components/bottom/bottom",
+    "components/bottom_night/bottom_night"
+  ],
+  "subpackages": [
+    {
+      "root": "BJM_package",
+      "pages": [
+        "pages/play_meditate/play_meditate",
+        "pages/play_sleep/play_sleep",
+        "pages/moreSounds_play/moreSounds_play",
+        "pages/shake/shake",
+        "pages/moreSounds_night/moreSounds_night"
+      ]
+    },
+    {
+      "root": "PC_package",
+      "pages": [
+        "pages/add_act/add_act",
+        "pages/article0/article0",
+        "pages/article1/article1",
+        "pages/article2/article2",
+        "pages/article3/article3",
+        "pages/article4/article4",
+        "pages/delete/delete",
+        "pages/delete-act/delete_act",
+        "pages/my/my",
+        "pages/free/free"
+      ]
+    },
+    {
+      "root": "SJY_package",
+      "pages": [
+        "pages/article_medi1/article_medi1",
+        "pages/article_medi2/article_medi2",
+        "pages/article_medi3/article_medi3",
+        "pages/article_night1/article_night1",
+        "pages/article_night2/article_night2",
+        "pages/more_sounds/more_sounds",
+        "pages/more_soundsNight/more_soundsNight"
+      ]
+    },
+    {
+      "root": "XY_package",
+      "pages": [
+        "pages/answer/answer",
+        "pages/feedback/feedback",
+        "pages/handbook/handbook",
+        "pages/my/my",
+        "pages/collect/collect",
+        "pages/signv2/signv2"
+      ]
+    }
+  ],
+  "navigateToMiniProgramAppIdList": [
+    "wxada7aab80ba27074"		
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "Meditation",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/today/today",
+        "text": "今日",
+        "iconPath": "./images/news.png",
+        "selectedIconPath": "./images/news_sele.png"
+      },
+      {
+        "pagePath": "pages/meditate/meditate",
+        "text": "冥想",
+        "iconPath": "./images/medi.png",
+        "selectedIconPath": "./images/medi_sele.png"
+      },
+      {
+        "pagePath": "pages/night/night",
+        "text": "睡眠",
+        "iconPath": "./images/sleep4.png",
+        "selectedIconPath": "./images/sleep_sele.png"
+      }
+    ]
+  },
+  "plugins": {
+    "calendar": {
+        "version": "1.1.3",
+        "provider": "wx92c68dae5a8bb046"
+    }
+  },
+  "usingComponents": {
+    "cu-custom":"/colorui/components/cu-custom"
+  }
+
+}

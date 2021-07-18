@@ -1,0 +1,83 @@
+<!--miniprogram/pages/add_act/add_act.wxml-->
+<view class="all">
+
+<!-- 选择活动类型 -->
+
+<view class="choose_act">
+ 
+  <image  class="direc"></image>
+  <view class="swiperr">
+  <swiper style="width: 552rpx; height: 511rpx; display: block; box-sizing: border-box" interval="1000" circular="true" bindchange="save_type" indicator-dots="true">
+    <swiper-item item-id="0" style="width: 580rpx; height: 400rpx; display: block; box-sizing: border-box;display:flex;  flex-direction: column;  align-items: center;" >
+      <image class="act_picture" src="https://636c-cloud1-4g04r9skf8ea7795-1305424601.tcb.qcloud.la/s1.webp?sign=fb9a077c791f269b67d73d1ef5e59ece&t=1622078659"/>
+      <view class="act_class" >
+        <view class="art_class_name">冥想</view>
+        <view class="art_class_duration">3-10 min</view>
+        <view class="art_class_duration">激活身心，重启思维</view>
+        <view class="art_class_duration">快充活力，恢复满格</view>
+      </view>
+      
+    </swiper-item>
+    <swiper-item item-id="1" style="width: 580rpx; height: 400rpx; display: block; box-sizing: border-box;display:flex;  flex-direction: column;  align-items: center;" >
+      <image class="act_picture" src="../../images/H1.png"/>
+      <view class="act_class" >
+        <view class="art_class_name">白噪声</view>
+        <view class="art_class_duration">3-10 min</view>
+        <view class="art_class_duration">由“无序”变“有序”</view>
+        <view class="art_class_duration">一次宇宙间的旅行</view>
+      </view>
+      
+    </swiper-item>
+    <swiper-item item-id="2" style="width: 580rpx; height: 400rpx; display: block; box-sizing: border-box;display:flex;  flex-direction: column;  align-items: center;" >
+      <image  class="act_picture"  src="../../images/N1.png"/>
+      <view class="act_class" >
+        <view class="art_class_name">睡眠</view>
+        <view class="art_class_duration">3-10 min</view>
+        <view class="art_class_duration">换挡到休息状态</view>
+        <view class="art_class_duration">带着爱与平静入梦</view>
+      </view>
+     
+    </swiper-item>
+  </swiper>
+</view>
+  <image  class="direc"></image>
+
+</view>
+
+<view class="choosenotes">选择时间段</view>
+<!-- 选择时间 -->
+<view class="choose_time_period">
+  <view class="time_text">时间</view>
+  <picker class="timepicker" bindchange="bindtimePickerChange" value="{{timeIndex}}" range="{{timeArray}}">
+    <view class="picker">
+      {{timeArray[timeIndex]}}
+    </view>
+  </picker>
+</view>
+<view class="choosenotes">选择音乐</view>
+<!-- 音乐 -->
+<view class="choose_time_period">
+  <view class="time_text">曲目</view>
+  <picker class="timepicker" bindchange="bindmusicPickerChange" value="{{musicIndex}}" range="{{musicArray}}">
+    <view class="picker">
+      {{musicArray[musicIndex]}}
+    </view>
+  </picker>
+</view>
+<view class="choosenotes">输入备注</view>
+<!-- 备注那一栏 -->
+<view class="fill_name">
+  <view class="time_text">备注</view>
+  <view class="text_input">
+    <textarea name="输入" id="1" cols="10" rows="1" placeholder="输入.." style="width:100%;height:80rpx" bindinput="save_note"></textarea>
+  </view>
+</view>
+<!-- 按键 -->
+<button class="add_button" bindtap="save_info">
+  <view class="lasttext">
+    <text>创建活动</text>
+  </view>
+</button>
+
+</view>
+

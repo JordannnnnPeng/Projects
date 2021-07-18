@@ -1,0 +1,61 @@
+<view class="v1">
+  <image src="/images/m2.png" class="pic_main" mode="widthFix"></image>
+  <view class="all">
+    <!-- 文字 -->
+    <view class="all_words">
+      <view class="title">
+        <text class="txt">睡眠</text>
+      </view>
+      <view class="info">
+        <view cdlass="sound_box">
+          <image src="/images/音频2.png" class="sound_icon"></image>
+        </view>
+        <view class="intro_box">
+          <text class="txt">Sleep · 10-20min</text>
+        </view>  
+      </view>
+    </view>
+    <!-- 播放键 -->
+    <view class="cover">
+      <image src="/images/play_night2.png" class="cover_img" bindtap="play"></image>
+      <!-- #006DE0 -->
+    </view>
+  </view>
+</view>
+
+<view class="container">
+  <view class="sub_title">
+    <text class="txt">音频 | Choice</text>
+  </view>
+  <navigator class="box1" url="../../SJY_package/pages/more_soundsNight/more_soundsNight">
+    <view class="words">
+      <view class="words_up">更多音频选择</view>
+      <view class="space"></view>
+      <view class="words_down">入眠雨声</view>
+    </view>
+    <image src="https://636c-cloud1-4g04r9skf8ea7795-1305424601.tcb.qcloud.la/night.jpeg?sign=ec12ef617c1124bb9e425bb74ab50018&t=1622080893" class="pic"></image>
+  </navigator>
+</view>
+
+<image src="https://636c-cloud1-4g04r9skf8ea7795-1305424601.tcb.qcloud.la/nightgif.gif?sign=2f5e573326f5cdd25c4613e72a490eb8&t=1622031375" class="gif" mode="widthFix"></image>
+<view class="container">
+  <view class="sub_title">
+    <text class="txt">探索 | More</text>
+  </view>
+  <navigator class="box2" wx:for="{{more_data}}" url="{{item.url}}">
+    <view class="words">
+      <view class="words_up">{{item.info_up}}</view>
+      <view class="space"></view>
+      <view style="display: flex; align-items: center; justify-content: center">
+        <view class="label">
+          <image src="{{item.src}}" class="icon"></image>
+        </view>
+        <view class="words_down">{{item.info_down}}</view>
+      </view>
+    </view>
+    <image class="pic" src="{{item.picPath}}"></image>
+  </navigator>
+  
+</view>
+
+<bottom_night></bottom_night>

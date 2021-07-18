@@ -1,0 +1,30 @@
+/* pages/article_medi1/article_medi1.wxss */
+page {
+  background-color: #f7f3e9;
+}
+.all {
+  padding: 0 60rpx;
+  /* bottom: 3em; */
+  padding-bottom: 3em;
+  /* height: 1300rpx; */
+}
+.all .img {
+  width: 100%;
+  border-radius: 1em;
+}
+
+.title{
+  font-size: larger;
+  margin-top: 5%;
+  letter-spacing: 1rpx;
+  margin-bottom: 20rpx;
+}
+.body{
+  margin-top: 15rpx;
+  font-size: 95%;
+  width: 90%;
+  margin-left: 5%;
+}
+.space {
+  width: 2em;
+}

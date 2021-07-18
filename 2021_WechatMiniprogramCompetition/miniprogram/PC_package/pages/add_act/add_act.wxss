@@ -1,0 +1,145 @@
+/* miniprogram/pages/add_act/add_act.wxss */
+.all{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+}
+.top_bar{
+  display: flex;
+  align-items: center;
+  height: 70rpx;
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #E4E4E4;
+}
+.back{
+  height: 40rpx;
+  width: 40rpx;
+  margin-left: 15rpx;
+}
+.top_text{
+  display: flex;
+  font-size: medium;
+  width: 12%;
+  margin: auto;
+  
+}
+
+.choose_act{
+  width: 686rpx;
+  height: 550rpx;
+  background-color: #fff;
+  box-shadow:1px 1px 6px #f4f6f8;
+  border-bottom: 1px solid #E4E4E4;
+  margin-top: 50rpx;
+  border-radius:2em;
+  display: flex;
+  align-items: center;
+
+}
+
+.act_picture{
+width: 520rpx;
+height: 270rpx;
+border-radius:1em;
+margin-top: 20rpx;
+}
+.act_class{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 10rpx;
+}
+.art_class_name{
+  font-size: larger;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+.art_class_duration{
+  font-size: small;
+  color: #979494;
+}
+.choose_time_period{
+  display: flex;
+  width: 686rpx;
+  height: 100rpx;
+  background-color:white;
+  box-shadow:1px 1px 6px #f4f6f8;
+  
+  border: 1px solid #E4E4E4;
+  margin-top: 40rpx;
+  border-radius:4em;
+  justify-content: center;
+}
+
+.time_text{
+  flex: 1;
+  text-align: center;
+  font-size: medium;
+
+  margin-top: 4%;
+}
+.timepicker{
+  flex: 3;
+  text-align: center;
+  font-size: medium;
+  margin-top: 4%;
+}
+.fill_name{
+  display: flex;
+  width: 686rpx;
+  height: 100rpx;
+  background-color:white;
+  
+  box-shadow:1px 1px 6px #f4f6f8;
+  border: 1px solid #E4E4E4;
+  margin-top: 25rpx;
+  border-radius:4em;
+  justify-content: center;
+}
+.text_input{
+  flex: 3;
+  text-align: center;
+  font-size: medium;
+  margin-top: 4%;
+}
+.add_button{
+  display: flex;
+  width: 400rpx;
+  height: 110rpx;
+  background-color:#2D70F0;
+  box-shadow:1px 1px 6px #f4f6f8;
+  border: 1px solid #E4E4E4;
+  margin-top: 50rpx;
+  border-radius:4em;
+  justify-content: center;
+  align-items: center;
+  /* padding-bottom: ; */
+  /* margin-bottom: 3em; */
+  /* bottom: 3em; */
+}
+.lasttext{
+color: #ffffff;
+font-size: large;
+font-weight: 400;
+letter-spacing: 2px;
+/* margin-bottom: 2em; */
+}
+.direc{
+  flex: 1;
+  width: 50rpx;
+  height: 50rpx;
+}
+.swiperr{
+  flex: 8;
+}
+.choosenotes{
+  font-size: large;
+  align-self: start;
+  margin-left: 6%;
+  margin-top: 5%;
+}

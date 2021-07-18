@@ -1,0 +1,52 @@
+<view class="v1">
+  <view class="container">
+    <view>
+      <view class="title">记忆力</view>
+      <!-- <view style="color: white">提高你的记忆力</view> -->
+      <scroll-view class="scroll" scroll-x="true">
+        <view class="whole_box" wx:for="{{musicNight1}}">
+          <navigator class="box" open-type="navigate" url="/BJM_package/pages/play_sleep/play_sleep?id={{item.id}}&musicSrc={{item.music}}">
+            <image src="{{item.src}}" class="img1"></image>
+          </navigator>
+          <view class="name">{{item.name}}</view>
+        </view>
+      </scroll-view>
+
+      <view class="line"></view>
+
+      <view class="title">森林浴</view>
+      <scroll-view class="scroll" scroll-x="true">
+        <view class="whole_box" wx:for="{{musicNight2}}">
+          <navigator class="box" open-type="navigate" url="/BJM_package/pages/play_sleep/play_sleep?id={{item.id}}&musicSrc={{item.music}}">
+            <image src="{{item.src}}" class="img1"></image>
+          </navigator>
+          <view class="name">{{item.name}}</view>
+        </view>
+      </scroll-view>
+
+      <view class="line"></view>
+
+      <view class="title">舒眠</view>
+      <scroll-view class="scroll" scroll-x="true">
+        <view class="whole_box" wx:for="{{musicNight3}}">
+          <navigator class="box" open-type="navigate" url="/BJM_package/pages/play_sleep/play_sleep?id={{item.id}}&musicSrc={{item.music}}">
+            <image src="{{item.src}}" class="img1"></image>
+          </navigator>
+          <view class="name">{{item.name}}</view>
+        </view>
+      </scroll-view>
+      
+      <view class="line"></view>
+
+      <view class="title">深度睡眠</view>
+      <scroll-view class="scroll" scroll-x="true">
+        <view class="whole_box" wx:for="{{musicNight4}}">
+          <navigator class="box" open-type="navigate" url="/BJM_package/pages/play_sleep/play_sleep?id={{item.id}}&musicSrc={{item.music}}">
+            <image src="{{item.src}}" class="img1"></image>
+          </navigator>
+          <view class="name">{{item.name}}</view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</view>

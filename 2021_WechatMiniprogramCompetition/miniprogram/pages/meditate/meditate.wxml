@@ -1,0 +1,98 @@
+<!--pages/meditate/meditate.wxml-->
+
+<view class="v1">
+  <image src="/images/m1.png" class="pic_main" mode="widthFix">
+  </image>
+  <view class="all">
+    <!-- 文字 -->
+    <view class="all_words">
+      <view class="title">
+        <text class="txt">基本</text>
+      </view>
+      <view class="info">
+        <view class="sound_box">
+          <image src="/images/音频3.png" class="sound_icon"></image>
+        </view>
+        <view class="intro_box">
+          <text class="txt">Workout · 10-20min</text>
+        </view>  
+      </view>
+    </view>
+    <!-- 播放键 -->
+    <view class="cover">
+      <image src="/images/play.png" class="cover_img" bindtap="play"></image>
+      <!-- #006DE0 -->
+    </view>
+  </view>
+</view>
+
+<view class="container">
+  <view class="sub_title">
+    <text class="txt">音频 | Choice</text>
+  </view>
+  <navigator class="box1" url="../../SJY_package/pages/more_sounds/more_sounds">
+    <view class="words">
+      <view class="words_up">更多音频选择</view>
+      <view class="space"></view>
+      <view class="words_down">白噪音 · 轻音乐 · lofi</view>
+    </view>
+    <image src="../../images/pic3.png" class="pic"></image>
+  </navigator>
+  <navigator class="box1" bindtap="toQQ">
+    <view class="words">
+      <view class="words_up">QQ音乐</view>
+      <view class="space"></view>
+      <view class="words_down">发现更多</view>
+    </view>
+    <image src="https://636c-cloud1-4g04r9skf8ea7795-1305424601.tcb.qcloud.la/Headspace-Header-1280x640.jpeg?sign=acd8e93f0adea3864aea44898931ade9&t=1622112625" class="pic"></image>
+  </navigator>
+</view>
+<image src="https://636c-cloud1-4g04r9skf8ea7795-1305424601.tcb.qcloud.la/medigif4.gif?sign=fe38df4c494c02dbba9b7ad39c9a48b9&t=1622030252" mode="widthFix" class="gif"></image>
+<view class="container">
+  <view class="sub_title">
+    <text class="txt">探索 | More</text>
+  </view>
+  <navigator class="box2" url="/SJY_package/pages/article_medi1/article_medi1">
+    <view class="words">
+      <view class="words_up">了解冥想</view>
+      <view class="space"></view>
+      <view style="display: flex; align-items: center; justify-content: center">
+        <view class="label">
+          <image src="/images/article.png" class="icon"></image>
+        </view>
+        <view class="words_down">给大脑一点空间. 提高你的专注力</view>
+      </view>
+    </view>
+    <image class="pic1" src="../../images/pic1.gif"></image>
+  </navigator>
+  <navigator class="box2" url="/SJY_package/pages/article_medi2/article_medi2">
+    <view class="words">
+      <view class="words_up">如何冥想</view>
+      <view class="space"></view>
+      <view style="display: flex; align-items: center; justify-content: center">
+        <view class="label">
+          <image src="/images/article.png" class="icon"></image>
+        </view>
+        <view class="words_down">闭上双眼. 冥想三步</view>
+      </view>
+    </view>
+    <image class="pic2" src="../../images/pic2.svg"></image>
+  </navigator>
+  <navigator class="box2" url="/SJY_package/pages/article_medi3/article_medi3">
+    <view class="words">
+      <view class="words_up">更多冥想训练</view>
+      <view class="space"></view>
+      <view style="display: flex; align-items: center; justify-content: center">
+        <view class="label">
+          <image src="/images/article.png" class="icon"></image>
+        </view>
+        <view class="words_down">饮食正念. Walk Meditation</view>
+      </view>
+    </view>
+    <image class="pic3" src="../../images/pic4.jpeg"></image>
+  </navigator>
+</view>
+
+<bottom></bottom>
+
+

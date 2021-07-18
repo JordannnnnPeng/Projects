@@ -1,0 +1,68 @@
+/* SJY_package/pages/article_night1/article_night1.wxss */
+page {
+  background-color: #070324;
+}
+.all {
+  padding: 0 50rpx;
+  margin-bottom: 4em;
+  padding-bottom: 3em;
+}
+.all .img {
+  width: 100%;
+  margin-bottom: 15rpx;
+  border-radius: 1em;
+}
+.body{
+  margin-top: 10rpx;
+  font-size: 95%;
+  width: 90%;
+  color: white;
+}
+.title{
+  font-size: larger;
+  /* margin-top: 5%; */
+  letter-spacing: 1rpx;
+  margin-bottom: 20rpx;
+  color: white;
+}
+.all .box1 {
+  /* display: flex; */
+  height: 300rpx;
+  background-color: #031542;
+  /* flex-direction: column; */
+  border-radius: 1em;
+  margin-bottom: 20rpx;
+}
+.all .box2 {
+  /* display: flex; */
+  height: 340rpx;
+  background-color: #031542;
+  /* flex-direction: column; */
+  border-radius: 1em;
+  margin-bottom: 20rpx;
+}
+.all .box3 {
+  /* display: flex; */
+  height: 400rpx;
+  background-color: #031542;
+  /* flex-direction: column; */
+  border-radius: 1em;
+  margin-bottom: 20rpx;
+}
+.all .box4 {
+  /* display: flex; */
+  height: 300rpx;
+  background-color: #031542;
+  /* flex-direction: column; */
+  border-radius: 1em;
+  margin-bottom: 20rpx;
+}
+.all .content {
+  top: 0rpx;
+  margin-left: 20rpx;
+  margin-right: 10rpx;
+}
+.descr {
+  font-size: 90%;
+  color: white;
+}

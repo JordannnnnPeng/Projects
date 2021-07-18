@@ -1,0 +1,22 @@
+<!--pages/signv2/signv2.wxml-->
+
+<view class="box">
+ <view class="container">
+  <view class="card">
+   <view class="imgBx">
+    <view class="fab fa-js fa-6x"></view>
+   </view>
+   <view class="content">
+    <view class="icon">
+      <calendar calendar-style="calendar"  header-style="calendar-header"  board-style="calendar-board" weeks-type="en" binddayClick="dayClick" days-color="{{dayStyle}}" next="{{true}}" prev="{{true}}" show-more-days="{{true}}"/>
+    </view>
+    <view class="bt" href="#">
+     <view class="title" disabled="{{flag}}">
+      <text wx:if="{{!flag}}" bindtap="signBindTap">打卡</text>
+      <text wx:if="{{flag}}" bindtap="promptBindTap">今天已经打卡</text>
+     </view>
+    </view>
+   </view>
+  </view>
+ </view>
+</view>

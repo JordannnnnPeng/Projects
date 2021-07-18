@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "bottom_night":"/components/bottom_night/bottom_night"
+  },
+  "navigationBarBackgroundColor": "#070324",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "睡眠",
+  "backgroundColor": "#070324"
+}

@@ -1,0 +1,41 @@
+/* s */
+.v1 .title {
+  font-size: large;
+  font-style: bold;
+  margin-top: 26rpx;
+  margin-left: 21rpx;
+}
+
+.v1 .scroll {
+  height: 250rpx;
+  display: flex;
+  margin-top: 15rpx;
+  white-space: nowrap;
+}
+.v1 .container .whole_box {
+  display: inline-block;
+}
+.v1 .container .box {
+  width: 200rpx;
+  height: 200rpx;
+  margin-right: 20rpx;
+  background-color: #f7f3e9;
+  border-radius: 1em;
+}
+.v1 .name {
+  margin-left: 21rpx;
+  font-size: small;
+}
+.v1 .line {
+  display: block;
+  height: 5rpx;
+  width: 300rpx;
+  margin-top: 30rpx;
+  margin-left: 199rpx;
+  background-color: #ff6f3c;
+}
+.box .img1 {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 1em;
+}
